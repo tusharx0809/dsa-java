@@ -1,5 +1,4 @@
-package arrays;
-public class Binarysearch {
+class Binarysearch {
     public static int binarysearch(int[] arr, int num){
         int l = 0;
         int r = arr.length - 1;

@@ -1,7 +1,5 @@
-package arrays;
-
-public class bubblesort {
-    public static int[] bubblesort(int[] arr){
+class Bubblesort {
+    public static int[] bubbleSorting(int[] arr){
         int n = arr.length;
         boolean swapped;
 
@@ -23,7 +21,7 @@ public class bubblesort {
     public static void main(String[] args){
         int[] arr = {7,3,5,1,2,6,8,9,4};
 
-        int[] sortedArr = bubblesort(arr);
+        int[] sortedArr = bubbleSorting(arr);
 
         System.out.print("SortedArray: [ ");
         for(int i=0; i<sortedArr.length; i++){
